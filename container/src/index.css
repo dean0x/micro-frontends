@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind height;
+@tailwind typography;
+@tailwind grid;
+@tailwind spacing;
+@tailwind layout;
+@tailwind sizing;
+@tailwind colors;
+@tailwind flexbox;
+
+html {
+  scroll-behavior: smooth;
+}

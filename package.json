@@ -1,0 +1,12 @@
+{
+  "name": "micro-frontends-demo",
+  "version": "1.0.0",
+  "description": "A suggested micro-frontends architecture for modern web development.",
+  "repository": "https://github.com/dean0x/micro-frontends",
+  "author": "Dean Sharon",
+  "license": "MIT",
+  "scripts": {
+    "start-container": "cd container && yarn install && yarn start",
+    "start-list": "cd list && yarn install && yarn start"
+  }
+}

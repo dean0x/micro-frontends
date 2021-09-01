@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MicroFrontends Application container</title>
+    <meta name="description" content="The container app for our application" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script id="apps" type="application/json">
+      [
+        {
+          "name": "List",
+          "version": "1.0.0",
+          "host": "http://localhost:3001",
+          "data": [
+            "Add versioning support for mfes",
+            "Add offline support and caching mechanism",
+            "Add a shared static content bucket",
+            "Add more mfes",
+            "Add an optimistic loading animation for the all mfes",
+            "Make it look pretty",
+            "Add support for communication between our mfes",
+            "Write tests",
+            "Refactor code"
+          ]
+        }
+      ]
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
