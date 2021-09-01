@@ -6,7 +6,7 @@
   "author": "Dean Sharon",
   "license": "MIT",
   "scripts": {
-    "start-container": "cd container && yarn install && yarn start",
-    "start-list": "cd list && yarn install && yarn start"
+    "init-container": "cd container && yarn install && yarn start",
+    "init-list": "cd list && yarn install && yarn start"
   }
 }
